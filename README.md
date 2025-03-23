@@ -129,6 +129,36 @@ Contributions are welcome! Feel free to:
 4. Push to the branch (`git push origin feature/amazing-feature`)
 5. Open a Pull Request
 
+## Deployment
+
+### GitHub Pages
+
+This project is set up to deploy automatically to GitHub Pages. Follow these steps:
+
+1. Push your code to GitHub:
+   ```bash
+   git remote add origin https://github.com/yourusername/devportfolio-3d-vue.git
+   git push -u origin main
+   ```
+
+2. On GitHub, go to your repository settings:
+   - Navigate to "Settings" > "Pages"
+   - Under "Build and deployment", select "GitHub Actions" as the source
+   - The site will be deployed automatically when you push to the main branch
+
+Your site will be available at `https://yourusername.github.io/devportfolio-3d-vue/`
+
+### Other Hosting Options
+
+You can also deploy this site to any static site hosting service:
+
+1. Build the project:
+   ```bash
+   npm run build
+   ```
+
+2. Upload the contents of the `dist` folder to your hosting provider
+
 ## License
 
 This project is open source and available under the [MIT License](LICENSE).
