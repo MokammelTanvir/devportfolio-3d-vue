@@ -1,0 +1,26 @@
+@import "tailwindcss";
+
+/* Custom styles */
+html, body {
+  scroll-behavior: smooth;
+  @apply bg-gray-900 text-white;
+}
+
+.hero-section {
+  min-height: 100vh;
+  @apply relative overflow-hidden;
+}
+
+.section {
+  @apply py-24 px-6 md:px-12 lg:px-24;
+}
+
+@layer utilities {
+  .text-gradient {
+    @apply bg-clip-text text-transparent bg-gradient-to-r from-blue-500 to-purple-600;
+  }
+
+  .card-hover {
+    @apply transition-all duration-300 hover:shadow-xl hover:-translate-y-2;
+  }
+}
