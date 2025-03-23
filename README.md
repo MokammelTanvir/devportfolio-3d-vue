@@ -2,6 +2,8 @@
 
 A modern 3D portfolio website built with Vue.js, Three.js, and Tailwind CSS. This project serves as both a professional portfolio and a learning resource for Three.js implementation in Vue applications.
 
+![DevPortfolio 3D Screenshot](./public/screenshot.png)
+
 ## Features
 
 - Interactive 3D elements powered by Three.js
@@ -75,7 +77,6 @@ The built files will be in the `dist` directory.
 ```
 devportfolio-3d-vue/
 ├── public/             # Static assets
-├── src/
 │   ├── assets/         # Images and other assets
 │   ├── components/     # Vue components
 │   ├── style.css       # Global CSS and Tailwind imports
