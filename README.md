@@ -77,6 +77,9 @@ The built files will be in the `dist` directory.
 ```
 devportfolio-3d-vue/
 ├── public/             # Static assets
+│   ├── screenshot.png  # Project screenshot
+│   └── vite.svg        # Vite logo
+├── src/
 │   ├── assets/         # Images and other assets
 │   ├── components/     # Vue components
 │   ├── style.css       # Global CSS and Tailwind imports
